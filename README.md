@@ -1,4 +1,4 @@
-# Analytathon 2 – Entity Duplication Detection
+# Deloitte - Entity Duplication Detection 
 
 ## Project Overview
 
