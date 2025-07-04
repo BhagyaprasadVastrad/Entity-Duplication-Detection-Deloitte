@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Duplicate Detection Summary</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Category</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total Records Processed</td>
+      <td>5000</td>
+    </tr>
+    <tr>
+      <td>Missing Middle Name</td>
+      <td>49% missing</td>
+    </tr>
+    <tr>
+      <td>Missing Date of Birth</td>
+      <td>63% missing</td>
+    </tr>
+    <tr>
+      <td>Missing Email/Phone</td>
+      <td>~36% missing</td>
+    </tr>
+    <tr>
+      <td>Exact Duplicates (Phone-based)</td>
+      <td>2837</td>
+    </tr>
+    <tr>
+      <td>Exact Duplicates (Email-based)</td>
+      <td>1565</td>
+    </tr>
+    <tr>
+      <td>Fuzzy Duplicates (Name & Address)</td>
+      <td>104</td>
+    </tr>
+    <tr>
+      <td>Total Duplicates Identified</td>
+      <td>3512</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
